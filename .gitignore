@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Hardhat / Solidity build output
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+
+# Hardhat Ignition deployment state (in jedem Paket, daher **/)
+**/ignition/deployments/
+
+# Secrets & environment
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

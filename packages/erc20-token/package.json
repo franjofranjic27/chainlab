@@ -1,0 +1,26 @@
+{
+  "name": "erc20-token",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Track 1 — Dein eigener ERC-20 Coin (Chainlab Token / CLAB)",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat ignition deploy ignition/modules/ChainlabToken.ts --network localhost",
+    "deploy:sepolia": "hardhat ignition deploy ignition/modules/ChainlabToken.ts --network sepolia --build-profile production",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.1.5",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.5",
+    "@types/node": "^24.0.0",
+    "hardhat": "^3.4.5",
+    "typescript": "^5.8.0",
+    "viem": "^2.49.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}

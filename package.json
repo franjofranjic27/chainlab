@@ -1,0 +1,15 @@
+{
+  "name": "chainlab",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Monorepo-Spielwiese fuer Ethereum-/Blockchain-Technologie",
+  "packageManager": "pnpm@10.28.2",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "compile": "pnpm -r --if-present compile",
+    "test": "pnpm -r --if-present test",
+    "clean": "pnpm -r --if-present clean"
+  }
+}
