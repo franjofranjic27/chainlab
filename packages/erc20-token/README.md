@@ -7,11 +7,11 @@ Zeigt, dass ein "Coin" auf Ethereum technisch nichts weiter als ein Smart Contra
 
 `contracts/ChainlabToken.sol` kombiniert drei OpenZeppelin-Bausteine:
 
-| Baustein        | Funktion                                                      |
-| --------------- | ------------------------------------------------------------- |
-| `ERC20`         | Standard fuer fungible Token: `transfer`, `approve`, `allowance` |
-| `ERC20Burnable` | Halter koennen eigene Token vernichten (`burn`, `burnFrom`)   |
-| `Ownable`       | Access Control — nur der Owner darf `mint` aufrufen           |
+| Baustein        | Funktion                                                        |
+| --------------- |-----------------------------------------------------------------|
+| `ERC20`         | Standard für fungible Token: `transfer`, `approve`, `allowance` |
+| `ERC20Burnable` | Halter koennen eigene Token vernichten (`burn`, `burnFrom`)     |
+| `Ownable`       | Access Control — nur der Owner darf `mint` aufrufen             |
 
 - **Name / Symbol:** `Chainlab Token` / `CLAB`, 18 Decimals
 - **Initial-Supply:** 1.000.000 CLAB, beim Deploy an den Owner gemintet

@@ -170,7 +170,7 @@ Abgehakt wird, sobald ein Projekt steht.
 
 **Track 1 — Grundlagen**
 - [x] `erc20-token` — ChainlabToken (CLAB), mintable/burnable/ownable, 13 Tests grün
-- [ ] `hello-contracts`
+- [x] `hello-contracts` — Counter, SimpleStorage, Voting, Escrow von Grund auf, 39 Tests grün
 - [ ] `erc721-nft`
 
 **Track 2 — Governance & Wallets**

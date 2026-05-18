@@ -15,7 +15,7 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 contract ChainlabToken is ERC20, ERC20Burnable, Ownable {
     /// @param initialSupply Menge an Token (in der kleinsten Einheit, 18 Decimals),
     ///        die beim Deploy erzeugt wird.
-    /// @param initialOwner Adresse, die Owner wird und das Initial-Supply erhaelt.
+    /// @param initialOwner Adresse, die Owner wird und das Initial-Supply erhält.
     constructor(uint256 initialSupply, address initialOwner)
         ERC20("Chainlab Token", "CLAB")
         Ownable(initialOwner)
